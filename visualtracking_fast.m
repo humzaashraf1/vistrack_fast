@@ -22,6 +22,6 @@ currFile = fullfile(firstdirToProcess,fileList{file});
 Timelapse_2color_nd2_multifile(currFile,dirToExport,dirToProcessList,path1,path2,EF,maskdir);
 
 % Run vistrack_fast
-file = 'Z:\ManuscriptDataFinal\Figure4\20220821_HA Projects\COOLMOVIECODE\TwoColor\example\tracedata_r_c_s.mat'; %row, col, site
+file = '...\tracedata_r_c_s.mat'; %row, col, site
 dir = maskdir;
 vistrack_fast(dir,file)
